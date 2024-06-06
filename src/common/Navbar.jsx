@@ -102,14 +102,16 @@ export default function Navbar({
                 Services
               </a>
             </li>
-            <li className=" hover:scale-105">
-              <a
-                href=""
-                className=" text-stroke-white text-stroke text-transparent"
-                onClick={(e) => handleLinkClick(e, "")}
-              >
-                Contact
-              </a>
+            <li>
+              <button className=" hover:scale-105" onClick={showContact}>
+                <a
+                  href="home"
+                  className=" text-stroke-white text-stroke text-transparent"
+                  onClick={(e) => handleLinkClick(e, "home")}
+                >
+                  Contact
+                </a>
+              </button>
             </li>
           </ul>
         </div>
