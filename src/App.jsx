@@ -10,10 +10,13 @@ import Preloader from "./utils/Preloader";
 function App() {
   const [isLoading, setIsLoading] = useState(true);
   const [isOpen, setIsOpen] = useState(false);
+  const [isContactClicked, setIsContactClicked] = useState(false);
 
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
+
+  console.log(isContactClicked);
 
   useEffect(() => {
     const loadingTimeout = setTimeout(() => {
@@ -31,13 +34,19 @@ function App() {
       {isLoading && <Preloader />}
       {!isLoading && (
         <Navbar
+          setIsContactClicked={setIsContactClicked}
           isOpen={isOpen}
           handleToggle={handleToggle}
           setIsOpen={setIsOpen}
         />
       )}
       <main>
-        {!isLoading && <HomePage />}
+        {!isLoading && (
+          <HomePage
+            setIsContactClicked={setIsContactClicked}
+            isContactClicked={isContactClicked}
+          />
+        )}
         {!isLoading && <About />}
         {!isLoading && <Projects />}
         {!isLoading && <Services />}

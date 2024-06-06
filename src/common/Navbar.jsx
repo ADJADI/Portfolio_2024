@@ -1,7 +1,12 @@
 import React, { useState } from "react";
 import { useMediaQuery } from "react-responsive";
 
-export default function Navbar({ isOpen, handleToggle, setIsOpen }) {
+export default function Navbar({
+  isOpen,
+  handleToggle,
+  setIsOpen,
+  setIsContactClicked,
+}) {
   const isMobile = useMediaQuery({ maxWidth: 768 });
 
   const handleLinkClick = (event, sectionId) => {
@@ -12,7 +17,10 @@ export default function Navbar({ isOpen, handleToggle, setIsOpen }) {
     }, 300); // Delay to ensure the menu has closed
   };
 
-  console.log(isOpen);
+  const showContact = () => {
+    setIsContactClicked(true);
+  };
+
   return (
     <div className="">
       <nav
@@ -41,10 +49,15 @@ export default function Navbar({ isOpen, handleToggle, setIsOpen }) {
               Services
             </a>
           </li>
-          <li className="hover:underline underline-offset-2 ">
-            <a href="" onClick={(e) => handleLinkClick(e, "contact")}>
-              Contact
-            </a>
+          <li className=" ">
+            <button
+              className="hover:underline underline-offset-2"
+              onClick={showContact}
+            >
+              <a href="home" onClick={(e) => handleLinkClick(e, "home")}>
+                Contact
+              </a>
+            </button>
           </li>
         </ul>
         <button

@@ -15,9 +15,8 @@ import femLogo from "../../assets/logos/favicon-32x32.png";
 import githubLogo from "../../assets/logos/icons8-github-60.png";
 import linkedinLogo from "../../assets/logos/icons8-linkedin-50.png";
 
-export default function HomePage() {
+export default function HomePage({ setIsContactClicked, isContactClicked }) {
   const [isClicked, setIsclicked] = useState(false);
-  const [isContactClicked, setIsContactClicked] = useState(false);
   const handleClick = () => {
     setIsclicked(!isClicked);
   };
@@ -43,7 +42,7 @@ export default function HomePage() {
     <div className="flex justify-center" id="home">
       <div className="h-[1200px] md:h-[800px] max-w-[1800px] flex flex-col bg-neutral-900 w-full p-5 md:p-10 lg:p-20">
         <section className=" gap-10 md:pb-5 md:h-auto w-full flex flex-col lg:flex-row ">
-          <div className=" font-bold tracking-widest flex flex-col h-full lg:text-4xl 0 text-slate-50 relative max-w-[300px] w-full">
+          <div className=" font-bold tracking-widest flex flex-col h-full lg:text-4xl 0 text-slate-50 relative max-w-[300px]  w-full">
             <div className="flex flex-col">
               <h1 className="text:xl md:text-2xl tracking-[0.21em]">
                 Hey! je m'appelle
@@ -128,7 +127,10 @@ export default function HomePage() {
               onDoubleClick={handleMouseLeave}
             >
               {!isContactClicked ? (
-                <section className="text-neutral-900 font-bold text-xl md:text-4xl">
+                <section
+                  className="text-neutral-900 font-bold text-xl md:text-4xl"
+                  id="contact"
+                >
                   contact me
                 </section>
               ) : (
