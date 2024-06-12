@@ -89,7 +89,7 @@ export default function HomePage({ setIsContactClicked, isContactClicked }) {
               <div className="flex flex-col items-start justify-between md:items-center h-full md:flex-row">
                 <span className="text-sm extraSmall:text-lg ">
                   Voici mon classement sur le site codewars.com (site
-                  d'entrainnement à l'algorithmie)
+                  d'entraînement à l'algorithmie)
                 </span>
                 <img
                   src="https://www.codewars.com/users/Leclown/badges/micro"
@@ -102,7 +102,7 @@ export default function HomePage({ setIsContactClicked, isContactClicked }) {
           <div className="w-full h-full flex gap-3 ">
             <section className="w-full flex justify-center h-full gap-5 flex-col px-5 rounded-xl bg-neutral-300 md:flex-row md:justify-between  md:items-center">
               <span className=" text-xs extraSmall:text-xl font-bold flex  md:text-start md:text-lg">
-                Apprentissage autodicacte grâce à :{" "}
+                Apprentissage autodidacte grâce à :{" "}
               </span>
               <div className="flex flex-col items-start md:pl-5 md:justify-center">
                 <img src={fccLogo} alt="" className="max-h-8 object-contain" />

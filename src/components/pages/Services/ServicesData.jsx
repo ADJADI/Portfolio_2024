@@ -66,17 +66,17 @@ const stateService = [
   {
     id: 2,
     description:
-      "Intégration d'Apollo Client avec des API GraphQL pour le chargement de données efficace et dynamique.",
+      "Intégration d'Apollo Client avec des API GraphQL pour le chargement de données efficaces et dynamiques.",
   },
   {
     id: 3,
     description:
-      "Amélioration des capacités de gestion de formulaire avec la validation de schéma Yup et des soumissions de formulaire asynchrones.",
+      "Amélioration des capacités de gestion de formulaires avec la validation de schéma Yup et des soumissions de formulaires asynchrones.",
   },
   {
     id: 4,
     description:
-      " Implémentation de fonctionnalités d'accessibilité WCAG au sein des composants de formulaire pour assurer l'accessibilité à tous les utilisateurs.",
+      " Implémentation de fonctionnalités d'accessibilité WCAG au sein des composants de formulaires pour assurer l'accessibilité à tous les utilisateurs.",
   },
 ];
 const optimizationService = [

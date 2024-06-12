@@ -21,12 +21,12 @@ export default function About() {
         <div className="flex flex-col text-neutral-100 gap-3 p-10 md:w-[80%] md:text-xl ">
           <h2 className="font-bold">A propos de moi</h2>
           <p className="">
-            Je me suis passionné par le developpement web, après un
-            apprentissage en autodidacte et le suivi de formations en ligne tel
-            qu'avec FreeCodeCamp. J'ai ainsi acquis les bases en HTML/CSS et
-            JavaScript. Par la suite j'ai decouvert le framework React.js. J'ai
-            rapidement aimé travailler avec React.js et ai ainsi décidé de me
-            concentrer sur son apprentissage. J'aime aussi l'associer avec
+            Je me suis passionné pour le développement web, après un
+            apprentissage en autodidacte et le suivi de formations en ligne
+            telle qu'avec FreeCodeCamp. J'ai ainsi acquis les bases en HTML/CSS
+            et JavaScript. Par la suite j'ai decouvert le framework React.js.
+            J'ai rapidement aimé travailler avec React.js et j'ai ainsi décidé
+            de me concentrer sur son apprentissage. J'aime aussi l'associer avec
             tailwindcss pour ce qui est du style car je trouve que le mariage
             entre les deux fonctionne très bien.
           </p>

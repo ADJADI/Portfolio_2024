@@ -92,7 +92,7 @@ const Projects = () => {
     <div className="" id="project">
       <div className="flex justify-end w-full max-w-[2000px]">
         <h1 className="text-end  md:text-xl font-bold py-10 md:p-10 text-neutral-100 md:w-2/3">
-          Vous retrouverez ici quelques uns de mes projets d'entrainnement, qui
+          Vous trouverez ici quelques uns de mes projets d'entraînement, qui
           m'ont permis d'apprendre diverses techniques et l'utilisation de
           différentes bibliothèques.
         </h1>
