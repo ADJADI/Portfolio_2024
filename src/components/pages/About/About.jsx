@@ -23,7 +23,7 @@ export default function About() {
           <p className="">
             Je me suis passionné pour le développement web, après un
             apprentissage en autodidacte et le suivi de formations en ligne
-            telle qu'avec FreeCodeCamp. J'ai ainsi acquis les bases en HTML/CSS
+            (FreeCodeCamp,W3School...). J'ai ainsi acquis les bases en HTML/CSS
             et JavaScript. Par la suite j'ai decouvert le framework React.js.
             J'ai rapidement aimé travailler avec React.js et j'ai ainsi décidé
             de me concentrer sur son apprentissage. J'aime aussi l'associer avec
