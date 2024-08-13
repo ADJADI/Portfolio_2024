@@ -72,7 +72,7 @@ export default function HomePage({ setIsContactClicked, isContactClicked }) {
                   pixel design
                 </li>
                 <li className="px-1 py-3 border rounded-full">framework</li>
-                <li className="px-1 py-3 border rounded-full">testing</li>
+                <li className="px-1 py-3 border rounded-full">mobile-first</li>
               </ul>
             </section>
           </div>
@@ -177,9 +177,14 @@ export default function HomePage({ setIsContactClicked, isContactClicked }) {
                     </div>
                     <div className="flex gap-5 items-center">
                       <img src={linkedinLogo} alt="" className="h-5" />
-                      <span className="text-start hover:underline hover:underline-offset-2">
+                      <a
+                        href="https://www.linkedin.com/in/axel-adjadi-435071319/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-start hover:underline hover:underline-offset-2"
+                      >
                         Cliquer pour visiter mon profil linkedin
-                      </span>
+                      </a>
                     </div>
                   </div>
                 </section>

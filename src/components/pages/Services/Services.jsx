@@ -116,7 +116,7 @@ export default function Services() {
               isVisible ? "" : ""
             }`}
           >
-            <div className=" text-sm text-center text-neutral-900 flex h-full items-center p-5">
+            <div className=" text-sm text-center text-neutral-900 flex h-full justify-center items-center p-5">
               {uxService[currentIndex].description}
             </div>
             <div className="absolute top-0 w-full flex justify-between h-full ">
@@ -152,7 +152,7 @@ export default function Services() {
               isVisible ? "" : ""
             }`}
           >
-            <div className=" text-sm text-center text-neutral-900  flex h-full items-center p-5">
+            <div className=" text-sm text-center text-neutral-900  flex justify-center h-full items-center p-5">
               {stateService[currentIndexState].description}
             </div>
             <div className="absolute top-0 w-full flex justify-between h-full ">

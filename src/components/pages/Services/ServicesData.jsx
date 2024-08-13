@@ -39,7 +39,7 @@ const uxService = [
   {
     id: 1,
     description:
-      "Conception et développement d'interfaces web réactives, axées sur le mobile, en utilisant des frameworks UI modernes tels que Material-UI et Ant Design",
+      "Conception et développement d'interfaces web réactives, axées sur le mobile, en utilisant des frameworks UI modernes tels que Tailwindcss",
   },
   {
     id: 2,
@@ -54,7 +54,7 @@ const uxService = [
   {
     id: 4,
     description:
-      "Mise en place de tests automatisés avec Jest et React Testing Library pour garantir la qualité du code et de l'expérience utilisateur.",
+      "Mise en place de calques afin de mettre en place un développement en pixel perfect",
   },
 ];
 const stateService = [
@@ -88,7 +88,7 @@ const optimizationService = [
   {
     id: 2,
     description:
-      "Application de workflows CI/CD avec GitHub Actions pour les tests et déploiements automatisés.",
+      "Optimisation des performances d'application grâce à l'utilisation du Lazy Loading avec React pour réduire les temps de chargement initiaux.",
   },
   {
     id: 3,
@@ -98,7 +98,7 @@ const optimizationService = [
   {
     id: 4,
     description:
-      "Collaboration avec des équipes pluridisciplinaires pour fournir des solutions web de haute qualité, en mettant l'accent sur la communication efficace et la résolution de problèmes",
+      "Optimisation du chargement des commentaires pour améliorer la rapidité d'affichage.",
   },
 ];
 
